@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios",
+  "info": {
+    "singularName": "usuario",
+    "pluralName": "usuarios",
+    "displayName": "usuarios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "fechanacimiento": {
+      "type": "date",
+      "required": true
+    },
+    "identificacion": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}
